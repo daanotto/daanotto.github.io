@@ -11,35 +11,30 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* PhD in Applied Mathematics, GitHub University, 2028 (expected)
+* MSc in Business Analytics, VU Amsterdam, 2023
+* MSc in Econometrics & Operations Research, VU Amsterdam, 2022
+* BSc in Mathematics, Leiden University, 2020
+* BSc in Physics, Leiden University, 2020
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* 05/2024-now: PhD Candidate
+  * University of Amsterdam, Amsterdam Business School
+  * Supervisor: Jannis Kurtz, Ilker Birbil
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 04/2023-04/2024: Data Scientist/Strategy Consultant
+  * REWIRE (formerly known as MIcompany)
+  * Various projects on data science and data strategy
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* 09/2022-02/2023: Green Supply Chain Analyst
+  * KLM, Royal Dutch Airlines
+  * Defining CO2 metrics for the supply chain
+  * Modelling the optimal global supply strategy involving emissions
+
+* 2017-2022: Teaching Assistant
+  * Leiden University, VU Amsterdam
+  * Hosting tutorials of various mathematical courses for Bachelor's and Master's students
 
 Publications
 ======
@@ -58,7 +53,3 @@ Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
