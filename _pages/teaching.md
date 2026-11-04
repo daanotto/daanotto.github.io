@@ -2,14 +2,28 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Course materials, schedules, and resources for classes taught.
-nav: true
-nav_order: 6
-calendar: true
+description: Courses I have taught or assisted, and students I have supervised.
+nav: false # set to true once _data/teaching.yml has entries
+nav_order: 4
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
-
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
-
-{% include courses.liquid %}
+{%- comment -%} Edit your teaching in _data/teaching.yml, not here. {%- endcomment -%}
+<div class="teaching-list">
+{%- assign t = site.data.teaching -%}
+{%- if t.courses.size > 0 -%}
+<h2>Courses</h2>
+<table class="table table-sm table-borderless">
+{%- for c in t.courses -%}
+<tr><th scope="row" style="width: 20%">{{ c.years }}</th><td><strong>{{ c.course }}</strong><br>{{ c.role }}{% if c.programme %} · {{ c.programme }}{% endif %}{% if c.institution %}, {{ c.institution }}{% endif %}</td></tr>
+{%- endfor -%}
+</table>
+{%- endif -%}
+{%- if t.supervision.size > 0 -%}
+<h2>Thesis supervision</h2>
+<table class="table table-sm table-borderless">
+{%- for s in t.supervision -%}
+<tr><th scope="row" style="width: 20%">{{ s.years }}</th><td><strong>{{ s.student }}</strong>, {{ s.level }}<br><em>{{ s.title }}</em>{% if s.cosupervisor %} · co-supervised with {{ s.cosupervisor }}{% endif %}</td></tr>
+{%- endfor -%}
+</table>
+{%- endif -%}
+</div>

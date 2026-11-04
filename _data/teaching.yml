@@ -1,0 +1,44 @@
+# Teaching shown on the teaching page. Newest first.
+#
+# courses: one entry per course (and per role, if your role changed)
+#   - years: 2025–2026
+#     course: Robust Optimization
+#     role: Teaching assistant
+#     programme: MSc Business Analytics
+#     institution: University of Amsterdam
+#
+# supervision: thesis students
+#   - years: 2025
+#     student: First Last
+#     level: MSc thesis
+#     title: Thesis title
+#     cosupervisor: name (optional)
+
+courses: 
+  - years: 2025–current
+    course:  Bachelor’s Thesis and Thesis Seminar Business Analytics
+    role: Thesis supervisor
+    programme: BSc Business Analytics
+    institution: University of Amsterdam
+  - years: 2024–current
+    course: Operations Research - Deterministic Methods	
+    role: Teaching assistant
+    programme: BSc Business Analytics
+    institution: University of Amsterdam
+  - years: 2024–current
+    course: Operations Research - Stochastic Methods	
+    role: Teaching assistant
+    programme: BSc Business Analytics
+    institution: University of Amsterdam
+  - years: 2021-2022
+    course: Various courses on mathematics
+    role: Teaching assistant
+    programme: Various BSc and MSc programmes of Science Faculty
+    institution: Vrije Universiteit Amsterdam
+  - years: 2017-2020
+    course: Various courses on mathematics
+    role: Teaching assistant
+    programme: Various BSc programmes of Science Faculty
+    institution: Leiden University
+
+supervision: []

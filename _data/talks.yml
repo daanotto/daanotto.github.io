@@ -1,0 +1,37 @@
+# Talks shown on the talks page.
+#
+# One entry per talk. A talk given several times is listed ONCE, with every
+# occasion under `given`. Put the talk you presented most recently at the top.
+#
+# Per talk (optional): coauthors, slides (a link, or a file such as /assets/pdf/clemo-slides.pdf)
+# Per occasion: date (YYYY-MM-DD; only month and year are shown), event, place,
+#               invited: true (optional, adds an "invited" label)
+
+- title: Linear Model Extraction via Factual and Counterfactual Queries
+  coauthors: J. Kurtz, D. Den Hertog and Ş. İ. Birbil
+  given:
+    - date: 2026-06-05
+      event: SIAM Conference on Optimization (OP26)
+      place: Edinburgh, United Kingdom
+
+- title: Coherent Local Explanations for Mathematical Optimization
+  coauthors: J. Kurtz and Ş. İ. Birbil
+  given:
+    - date: 2025-11-03
+      event: Satellite Workshop: Learned Methods for Operations Research
+      place: CWI, Amsterdam, The Netherlands
+    - date: 2025-10-15
+      event: EUROYoung Workshop
+      place: Naples, Italy
+    - date: 2025-09-03
+      event: International Conference on Operations Research (OR 2025)
+      place: Bielefeld, Germany
+    - date: 2025-09-18
+      event: The International Workshop on Explainability and Inter­pretability in Optimization
+      place: Nurnberg, Germany
+    - date: 2025-09-03
+      event: International Conference on Operations Research (OR 2025)
+      place: Bielefeld, Germany
+    - date: 2025-06-25
+      event: European Conference on Operational Research (EURO 2025)
+      place: Leeds, United Kingdom
