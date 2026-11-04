@@ -18,17 +18,14 @@
   coauthors: J. Kurtz and Ş. İ. Birbil
   given:
     - date: 2025-11-03
-      event: Satellite Workshop: Learned Methods for Operations Research
+      event: "Satellite Workshop: Learned Methods for Operations Research"
       place: CWI, Amsterdam, The Netherlands
     - date: 2025-10-15
       event: EUROYoung Workshop
       place: Naples, Italy
-    - date: 2025-09-03
-      event: International Conference on Operations Research (OR 2025)
-      place: Bielefeld, Germany
     - date: 2025-09-18
-      event: The International Workshop on Explainability and Inter­pretability in Optimization
-      place: Nurnberg, Germany
+      event: The International Workshop on Explainability and Interpretability in Optimization
+      place: Nuremberg, Germany
     - date: 2025-09-03
       event: International Conference on Operations Research (OR 2025)
       place: Bielefeld, Germany

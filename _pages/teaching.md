@@ -3,7 +3,7 @@ layout: page
 permalink: /teaching/
 title: teaching
 description: Courses I have taught or assisted, and students I have supervised.
-nav: false # set to true once _data/teaching.yml has entries
+nav: true
 nav_order: 4
 ---
 

@@ -14,28 +14,28 @@
 #     title: Thesis title
 #     cosupervisor: name (optional)
 
-courses: 
+courses:
   - years: 2025–current
-    course:  Bachelor’s Thesis and Thesis Seminar Business Analytics
+    course: Bachelor’s Thesis and Thesis Seminar Business Analytics
     role: Thesis supervisor
     programme: BSc Business Analytics
     institution: University of Amsterdam
   - years: 2024–current
-    course: Operations Research - Deterministic Methods	
+    course: Operations Research - Deterministic Methods
     role: Teaching assistant
     programme: BSc Business Analytics
     institution: University of Amsterdam
   - years: 2024–current
-    course: Operations Research - Stochastic Methods	
+    course: Operations Research - Stochastic Methods
     role: Teaching assistant
     programme: BSc Business Analytics
     institution: University of Amsterdam
-  - years: 2021-2022
+  - years: 2021–2022
     course: Various courses on mathematics
     role: Teaching assistant
     programme: Various BSc and MSc programmes of Science Faculty
     institution: Vrije Universiteit Amsterdam
-  - years: 2017-2020
+  - years: 2017–2020
     course: Various courses on mathematics
     role: Teaching assistant
     programme: Various BSc programmes of Science Faculty
